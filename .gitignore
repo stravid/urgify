@@ -16,3 +16,4 @@
 
 # ignore rubymine project files
 .idea
+.DS_Store

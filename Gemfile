@@ -12,4 +12,13 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'sqlite3'
+
+  # jasmine testing engine with cs support
+  gem 'jasminerice', :git => 'git://github.com/DominikGuzei/jasminerice.git'
+
+  # auto-test jasmine and integrate with Travis CI
+  gem 'guard-jasmine'
+
+  # notifications for auto-test with guard-jasmine
+  gem 'growl'
 end
