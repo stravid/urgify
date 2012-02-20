@@ -9,12 +9,13 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'embient'
 
 group :development, :test do
   gem 'sqlite3'
 
   # jasmine testing engine with cs support
-  gem 'jasminerice', :git => 'git://github.com/DominikGuzei/jasminerice.git'
+  gem 'jasminerice'
 
   # auto-test jasmine and integrate with Travis CI
   gem 'guard-jasmine'

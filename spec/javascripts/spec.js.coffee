@@ -3,8 +3,11 @@
 
 #= require jquery
 #= require jquery_ujs
-#= require vendor/require
-#= require vendor/ember
+#= require embient/require
+#= require ember-dev
+#= require embient/addons/sproutcore-routing
+#= require embient/addons/sproutcore-statechart
+#= require embient/addons/ember-data
 
 # ------ load testing extras -------
 # (jasmine + jasmine-jquery are loaded automatically)
