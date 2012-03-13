@@ -11,5 +11,7 @@
 #= require sinon.js
 #= require jasmine-sinon.js
 
+#= require_tree ./helpers
+
 # ------ load all specs ------
 #= require_tree ./unit
